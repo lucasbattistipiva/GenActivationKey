@@ -5,7 +5,7 @@
 #include <clocale>
 
 std::string gerarAlfaNumericoAleatorio(int comprimento) {
-    const std::string caracteres = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const std::string caracteres = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     std::string resultado;
 
     std::random_device rd;
