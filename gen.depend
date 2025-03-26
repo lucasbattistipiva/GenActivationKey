@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1742992597 source:c:\users\mec\documents\prog\nova pasta\gen\main.cpp
+	<iostream>
+	<random>
+	<string>
+	<locale>
+	<clocale>
+	<fstream>
+	<chrono>
+
