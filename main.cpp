@@ -46,11 +46,23 @@ int main() {
     setlocale(LC_ALL, "Portuguese");
 
     int comprimento = 25;
+    int resp;
+    do{
+
+
     std::string codigoAleatorio = gerarAlfaNumericoAleatorio(comprimento);
     std::string codigoFormatado = formatarCodigo(codigoAleatorio);
     std::cout << "Código de ativação : " << codigoFormatado << std::endl;
 
     escreverLog(codigoFormatado);
+
+            do{
+                std::cout << "Deseja gerar outro código?(1 = Sim / 0 = Não)" << std::endl;
+                std::cin >> resp;
+
+            }while(resp != 0 && resp != 1);
+
+        }while(resp != 0);
 
     return 0;
 }
